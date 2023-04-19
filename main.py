@@ -3,9 +3,9 @@ import telebot
 import openai
 import re
 
-openai.api_key = "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"
+openai.api_key = ""
 
-bot = telebot.TeleBot("6171102900:AAEY_FEemObkKyCHgNuq5lHLns85LhJEl5Y")
+bot = telebot.TeleBot("")
 
 # Handle /start command
 @bot.message_handler(commands=['start'])
